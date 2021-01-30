@@ -48,7 +48,7 @@ class PaymentController < ApplicationController
   end
 
   def request_to_bank
-    # Request to bank via respective API
+    # Request to bank via respective API , it can be done as a module in lib folder
   end
 
   def update_payment_status
